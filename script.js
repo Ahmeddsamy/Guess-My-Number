@@ -28,6 +28,7 @@ document.querySelector('.check').addEventListener('click', function () {
       document.querySelector('.score').textContent = score;
     } else {
       document.querySelector('.message').textContent = 'You Lost The game';
+      document.querySelector('.score').textContent = 0;
     }
   }
   // Final Scenario if guess is less than number
@@ -38,6 +39,7 @@ document.querySelector('.check').addEventListener('click', function () {
       document.querySelector('.score').textContent = score;
     } else {
       document.querySelector('.message').textContent = 'You Lost The game';
+      document.querySelector('.score').textContent = 0;
     }
   }
 });
