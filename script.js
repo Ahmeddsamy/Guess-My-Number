@@ -19,6 +19,10 @@ document.querySelector('.check').addEventListener('click', function () {
   // Second Scenario of number is correct
   else if (guess === secretNumber) {
     document.querySelector('.message').textContent = 'Correct Number';
+
+    document.querySelector('body').style.backgroundColor = '#60b347';
+
+    document.querySelector('.number').style.width = '30rem';
   }
   // Third Scenario if guess is greater than number
   else if (guess > secretNumber) {
